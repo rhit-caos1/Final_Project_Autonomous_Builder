@@ -1,0 +1,260 @@
+[0.225s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.225s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f27617b5bd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f27618bb160>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f27618bb160>>, mixin_verb=('build',))
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.252s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.252s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/scg1224/Final_Project/raspberry_pi_ws'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.253s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(aarch64_build) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(aarch64_build) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(aarch64_build) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(aarch64_install) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(aarch64_install) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(aarch64_install) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_msgs) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_msgs' with type 'ros.ament_cmake' and name 'apriltag_msgs'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/apriltag_ros) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/apriltag_ros' with type 'ros.ament_cmake' and name 'apriltag_ros'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot_control) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot_control' with type 'ros.ament_cmake' and name 'turtlebot_control'
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.272s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.296s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 43 installed packages in /home/scg1224/nuws/install
+[0.298s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 455 installed packages in /opt/ros/humble
+[0.300s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.361s] Level 5:colcon.colcon_core.verb:set package 'apriltag_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.361s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs', 'merge_install': False, 'path': '/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'cmake_target' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.362s] Level 5:colcon.colcon_core.verb:set package 'turtlebot_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.362s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control', 'merge_install': False, 'path': '/home/scg1224/Final_Project/raspberry_pi_ws/src/turtlebot_control', 'symlink_install': False, 'test_result_base': None}
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.363s] Level 5:colcon.colcon_core.verb:set package 'apriltag_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.363s] DEBUG:colcon.colcon_core.verb:Building package 'apriltag_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros', 'merge_install': False, 'path': '/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_ros', 'symlink_install': False, 'test_result_base': None}
+[0.364s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.367s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.367s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs' with build type 'ament_cmake'
+[0.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs'
+[0.371s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.376s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scg1224/Final_Project/raspberry_pi_ws/src/turtlebot_control' with build type 'ament_cmake'
+[0.376s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scg1224/Final_Project/raspberry_pi_ws/src/turtlebot_control'
+[0.377s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs
+[0.392s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control -- -j8 -l8
+[2.096s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs
+[2.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs -- -j8 -l8
+[4.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control -- -j8 -l8
+[5.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control
+[5.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_control)
+[5.021s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/turtlebot_control
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control' for CMake module files
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control' for CMake config files
+[5.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_control', 'cmake_prefix_path')
+[5.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/hook/cmake_prefix_path.ps1'
+[5.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/hook/cmake_prefix_path.dsv'
+[5.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/hook/cmake_prefix_path.sh'
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/lib'
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/bin'
+[5.027s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/lib/pkgconfig/turtlebot_control.pc'
+[5.028s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/lib/python3.10/site-packages'
+[5.028s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/bin'
+[5.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.ps1'
+[5.030s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.dsv'
+[5.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.sh'
+[5.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.bash'
+[5.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.zsh'
+[5.032s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/colcon-core/packages/turtlebot_control)
+[5.054s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot_control)
+[5.056s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control' for CMake module files
+[5.057s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control' for CMake config files
+[5.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot_control', 'cmake_prefix_path')
+[5.058s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/hook/cmake_prefix_path.ps1'
+[5.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/hook/cmake_prefix_path.dsv'
+[5.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/hook/cmake_prefix_path.sh'
+[5.059s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/lib'
+[5.059s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/bin'
+[5.059s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/lib/pkgconfig/turtlebot_control.pc'
+[5.060s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/lib/python3.10/site-packages'
+[5.060s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/bin'
+[5.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.ps1'
+[5.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.dsv'
+[5.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.sh'
+[5.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.bash'
+[5.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/turtlebot_control/package.zsh'
+[5.063s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scg1224/Final_Project/raspberry_pi_ws/install/turtlebot_control/share/colcon-core/packages/turtlebot_control)
+[5.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs -- -j8 -l8
+[5.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs
+[5.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[5.512s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs' for CMake module files
+[5.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs
+[5.513s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs' for CMake config files
+[5.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[5.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[5.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[5.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib'
+[5.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[5.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[5.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[5.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/bin'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/python3.10/site-packages'
+[5.519s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/bin'
+[5.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[5.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[5.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[5.522s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[5.602s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_msgs)
+[5.604s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs' for CMake module files
+[5.605s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs' for CMake config files
+[5.605s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'cmake_prefix_path')
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.ps1'
+[5.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.dsv'
+[5.608s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/cmake_prefix_path.sh'
+[5.608s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib'
+[5.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('apriltag_msgs', 'ld_library_path_lib')
+[5.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.ps1'
+[5.611s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.dsv'
+[5.611s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/hook/ld_library_path_lib.sh'
+[5.611s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/bin'
+[5.611s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/pkgconfig/apriltag_msgs.pc'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/python3.10/site-packages'
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/bin'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.ps1'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv'
+[5.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.sh'
+[5.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.bash'
+[5.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.zsh'
+[5.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/colcon-core/packages/apriltag_msgs)
+[5.616s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_ros' with build type 'ament_cmake'
+[5.616s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_ros'
+[5.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.630s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_ros': AMENT_PREFIX_PATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs:/home/scg1224/nuws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros
+[5.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_ros' returned '1': AMENT_PREFIX_PATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs:/home/scg1224/nuws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_ros -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros
+[5.640s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apriltag_ros)
+[5.642s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros' for CMake module files
+[5.642s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros' for CMake config files
+[5.642s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/bin'
+[5.642s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/lib/pkgconfig/apriltag_ros.pc'
+[5.643s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/lib/python3.10/site-packages'
+[5.643s] Level 1:colcon.colcon_core.environment:checking '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/bin'
+[5.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/share/apriltag_ros/package.ps1'
+[5.644s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/share/apriltag_ros/package.dsv'
+[5.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/share/apriltag_ros/package.sh'
+[5.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/share/apriltag_ros/package.bash'
+[5.645s] INFO:colcon.colcon_core.shell:Creating package script '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/share/apriltag_ros/package.zsh'
+[5.645s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_ros/share/colcon-core/packages/apriltag_ros)
+[5.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.656s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[5.656s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.662s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.662s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.662s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.674s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.676s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scg1224/Final_Project/raspberry_pi_ws/install/local_setup.ps1'
+[5.677s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/scg1224/Final_Project/raspberry_pi_ws/install/_local_setup_util_ps1.py'
+[5.678s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scg1224/Final_Project/raspberry_pi_ws/install/setup.ps1'
+[5.679s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scg1224/Final_Project/raspberry_pi_ws/install/local_setup.sh'
+[5.680s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/scg1224/Final_Project/raspberry_pi_ws/install/_local_setup_util_sh.py'
+[5.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scg1224/Final_Project/raspberry_pi_ws/install/setup.sh'
+[5.681s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scg1224/Final_Project/raspberry_pi_ws/install/local_setup.bash'
+[5.681s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scg1224/Final_Project/raspberry_pi_ws/install/setup.bash'
+[5.683s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/scg1224/Final_Project/raspberry_pi_ws/install/local_setup.zsh'
+[5.683s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/scg1224/Final_Project/raspberry_pi_ws/install/setup.zsh'

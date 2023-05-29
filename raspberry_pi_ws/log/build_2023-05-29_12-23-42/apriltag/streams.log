@@ -1,0 +1,121 @@
+[0.026s] Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag
+[0.088s] -- The C compiler identification is GNU 11.3.0
+[0.161s] -- The CXX compiler identification is GNU 11.3.0
+[0.174s] -- Detecting C compiler ABI info
+[0.229s] -- Detecting C compiler ABI info - done
+[0.237s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.241s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.321s] -- Detecting CXX compile features
+[0.321s] -- Detecting CXX compile features - done
+[0.321s] -- Setting build type to 'Release' as none was specified.
+[0.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.385s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.386s] -- Found Threads: TRUE  
+[0.435s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found version "3.10.6") 
+[0.708s] -- Configuring done
+[0.716s] -- Generating done
+[0.717s] -- Build files have been written to: /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag
+[0.722s] Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag
+[0.723s] Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag -- -j8 -l8
+[0.751s] [  2%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag.c.o[0m
+[0.752s] [  5%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_pose.c.o[0m
+[0.752s] [  7%] [32mBuilding C object CMakeFiles/apriltag.dir/apriltag_quad_thresh.c.o[0m
+[0.753s] [ 10%] [32mBuilding C object CMakeFiles/apriltag.dir/common/g2d.c.o[0m
+[0.753s] [ 12%] [32mBuilding C object CMakeFiles/apriltag.dir/common/getopt.c.o[0m
+[0.753s] [ 15%] [32mBuilding C object CMakeFiles/apriltag.dir/common/homography.c.o[0m
+[0.753s] [ 17%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8.c.o[0m
+[0.754s] [ 20%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x3.c.o[0m
+[1.081s] [ 22%] [32mBuilding C object CMakeFiles/apriltag.dir/common/image_u8x4.c.o[0m
+[1.091s] [ 25%] [32mBuilding C object CMakeFiles/apriltag.dir/common/matd.c.o[0m
+[1.091s] [ 27%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pam.c.o[0m
+[1.104s] [ 30%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg-idct.c.o[0m
+[1.145s] [ 32%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pjpeg.c.o[0m
+[1.229s] [ 35%] [32mBuilding C object CMakeFiles/apriltag.dir/common/pnm.c.o[0m
+[1.233s] [ 37%] [32mBuilding C object CMakeFiles/apriltag.dir/common/string_util.c.o[0m
+[1.318s] [ 40%] [32mBuilding C object CMakeFiles/apriltag.dir/common/svd22.c.o[0m
+[1.323s] [ 42%] [32mBuilding C object CMakeFiles/apriltag.dir/common/time_util.c.o[0m
+[1.429s] [ 45%] [32mBuilding C object CMakeFiles/apriltag.dir/common/unionfind.c.o[0m
+[1.429s] [ 47%] [32mBuilding C object CMakeFiles/apriltag.dir/common/workerpool.c.o[0m
+[1.461s] [ 50%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zarray.c.o[0m
+[1.517s] [ 52%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zhash.c.o[0m
+[1.568s] [ 55%] [32mBuilding C object CMakeFiles/apriltag.dir/common/zmaxheap.c.o[0m
+[1.622s] [ 57%] [32mBuilding C object CMakeFiles/apriltag.dir/tag16h5.c.o[0m
+[1.628s] [ 60%] [32mBuilding C object CMakeFiles/apriltag.dir/tag25h9.c.o[0m
+[1.706s] [ 62%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h10.c.o[0m
+[1.712s] [ 65%] [32mBuilding C object CMakeFiles/apriltag.dir/tag36h11.c.o[0m
+[1.761s] [ 67%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle21h7.c.o[0m
+[1.768s] [ 70%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCircle49h12.c.o[0m
+[1.810s] [ 72%] [32mBuilding C object CMakeFiles/apriltag.dir/tagCustom48h12.c.o[0m
+[1.818s] [ 75%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard41h12.c.o[0m
+[1.841s] [ 77%] [32mBuilding C object CMakeFiles/apriltag.dir/tagStandard52h13.c.o[0m
+[2.257s] [ 80%] [32m[1mLinking C shared library libapriltag.so[0m
+[2.299s] [ 80%] Built target apriltag
+[2.309s] [ 87%] [32mBuilding C object CMakeFiles/apriltag_demo.dir/example/apriltag_demo.c.o[0m
+[2.309s] [ 87%] [34m[1mGenerating apriltag_detect.docstring.h[0m
+[2.309s] [ 87%] [34m[1mGenerating apriltag_py_type.docstring.h[0m
+[2.309s] [ 90%] [32mBuilding CXX object CMakeFiles/opencv_demo.dir/example/opencv_demo.cc.o[0m
+[2.315s] [ 92%] [34m[1mGenerating apriltag_pywrap.o[0m
+[2.424s] [ 95%] [32m[1mLinking C executable apriltag_demo[0m
+[2.427s] [ 97%] [34m[1mGenerating apriltag.cpython-310-x86_64-linux-gnu.so[0m
+[2.454s] [ 97%] Built target apriltag_python
+[2.458s] [ 97%] Built target apriltag_demo
+[3.502s] [100%] [32m[1mLinking CXX executable opencv_demo[0m
+[3.762s] [100%] Built target opencv_demo
+[3.772s] Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag -- -j8 -l8
+[3.864s] Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag
+[3.867s] -- Install configuration: "Release"
+[3.868s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/apriltag.h
+[3.868s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/apriltag_math.h
+[3.868s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/apriltag_pose.h
+[3.868s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/doubles.h
+[3.868s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[3.868s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/floats.h
+[3.868s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/g2d.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/getopt.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/homography.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/image_types.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/image_u8.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/image_u8x3.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/image_u8x4.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/matd.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/math_util.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/pam.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/pjpeg.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/pnm.h
+[3.869s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/postscript_utils.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/string_util.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/svd22.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/time_util.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/timeprofile.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/unionfind.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/workerpool.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/zarray.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/zhash.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/common/zmaxheap.h
+[3.870s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tag16h5.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tag25h9.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tag36h10.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tag36h11.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tagCircle21h7.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tagCircle49h12.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tagCustom48h12.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tagStandard41h12.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/include/apriltag/tagStandard52h13.h
+[3.871s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/lib/libapriltag.so.3.2.0
+[3.873s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/lib/libapriltag.so.3
+[3.873s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/lib/libapriltag.so
+[3.873s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[3.873s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[3.873s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[3.873s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+[3.874s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/lib/pkgconfig/apriltag.pc
+[3.874s] -- Installing: /home/scg1224/.local/lib/python3.10/site-packages/apriltag.cpython-310-x86_64-linux-gnu.so
+[3.874s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/bin/opencv_demo
+[3.874s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/bin/opencv_demo" to ""
+[3.874s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/bin/apriltag_demo
+[3.875s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag/bin/apriltag_demo" to ""
+[3.876s] Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag

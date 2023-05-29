@@ -1,0 +1,282 @@
+[0.018s] Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs
+[0.071s] -- The C compiler identification is GNU 11.3.0
+[0.127s] -- The CXX compiler identification is GNU 11.3.0
+[0.137s] -- Detecting C compiler ABI info
+[0.194s] -- Detecting C compiler ABI info - done
+[0.205s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.205s] -- Detecting C compile features
+[0.206s] -- Detecting C compile features - done
+[0.211s] -- Detecting CXX compiler ABI info
+[0.280s] -- Detecting CXX compiler ABI info - done
+[0.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.289s] -- Detecting CXX compile features
+[0.289s] -- Detecting CXX compile features - done
+[0.292s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.839s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.925s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.929s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.936s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.014s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[1.268s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.396s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.574s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.577s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.602s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.602s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.602s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.602s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.623s] -- Found PythonExtra: .so  
+[1.670s] -- Found ament_lint_auto: 0.12.6 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.689s] -- Added test 'lint_cmake' to check CMake code style
+[1.689s] -- Added test 'xmllint' to check XML markup files
+[1.691s] -- Configuring done
+[1.720s] -- Generating done
+[1.722s] -- Build files have been written to: /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs
+[1.728s] Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs -DCMAKE_INSTALL_PREFIX=/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs
+[1.729s] Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs -- -j8 -l8
+[1.749s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.755s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.757s] [  4%] Built target ament_cmake_python_copy_apriltag_msgs
+[1.967s] running egg_info
+[1.969s] creating apriltag_msgs.egg-info
+[1.984s] writing apriltag_msgs.egg-info/PKG-INFO
+[1.984s] writing dependency_links to apriltag_msgs.egg-info/dependency_links.txt
+[1.984s] writing top-level names to apriltag_msgs.egg-info/top_level.txt
+[1.985s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[2.035s] reading manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[2.035s] writing manifest file 'apriltag_msgs.egg-info/SOURCES.txt'
+[2.057s] [  4%] Built target ament_cmake_python_build_apriltag_msgs_egg
+[2.157s] [  4%] Built target apriltag_msgs__cpp
+[2.163s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.164s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.164s] [ 10%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.187s] [ 12%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/point__functions.c.o[0m
+[2.187s] [ 17%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection__functions.c.o[0m
+[2.188s] [ 17%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_c.dir/rosidl_generator_c/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c.o[0m
+[2.260s] [ 19%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_generator_c.so[0m
+[2.288s] [ 19%] Built target apriltag_msgs__rosidl_generator_c
+[2.295s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.295s] [ 23%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.295s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.721s] [ 27%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[2.723s] [ 29%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[2.727s] [ 31%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[2.792s] [ 34%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/point__type_support.cpp.o[0m
+[2.884s] [ 36%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/point__type_support.cpp.o[0m
+[2.938s] [ 38%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection__type_support.cpp.o[0m
+[2.942s] [ 40%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/point__type_support.cpp.o[0m
+[3.000s] [ 42%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/point__type_support.c.o[0m
+[3.018s] [ 44%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/apriltag_msgs/msg/april_tag_detection_array__type_support.cpp.o[0m
+[3.051s] [ 46%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection__type_support.c.o[0m
+[3.059s] [ 48%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_c.so[0m
+[3.109s] [ 51%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c.o[0m
+[3.109s] [ 51%] Built target apriltag_msgs__rosidl_typesupport_c
+[3.114s] [ 53%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/point__type_support_c.cpp.o[0m
+[3.115s] [ 55%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection__type_support.cpp.o[0m
+[3.183s] [ 57%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/apriltag_msgs/msg/detail/dds_fastrtps/april_tag_detection_array__type_support.cpp.o[0m
+[3.183s] [ 59%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection__type_support_c.cpp.o[0m
+[3.185s] [ 61%] [32m[1mLinking C shared library libapriltag_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.201s] [ 63%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_cpp.so[0m
+[3.264s] [ 63%] Built target apriltag_msgs__rosidl_typesupport_introspection_c
+[3.270s] [ 65%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/apriltag_msgs/msg/detail/april_tag_detection_array__type_support_c.cpp.o[0m
+[3.301s] [ 65%] Built target apriltag_msgs__rosidl_typesupport_cpp
+[3.344s] [ 68%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp.o[0m
+[3.582s] [ 70%] [32mBuilding CXX object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp.o[0m
+[3.799s] [ 72%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.871s] [ 72%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c
+[3.958s] [ 74%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.027s] [ 74%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_cpp
+[4.095s] [ 76%] [32m[1mLinking CXX shared library libapriltag_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.151s] [ 76%] Built target apriltag_msgs__rosidl_typesupport_introspection_cpp
+[4.162s] [ 76%] Built target apriltag_msgs
+[4.172s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.689s] [ 78%] Built target apriltag_msgs__py
+[4.697s] [ 80%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_point_s.c.o[0m
+[4.697s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_s.c.o[0m
+[4.697s] [ 85%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_generator_py.dir/rosidl_generator_py/apriltag_msgs/msg/_april_tag_detection_array_s.c.o[0m
+[4.818s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so[0m
+[4.848s] [ 87%] Built target apriltag_msgs__rosidl_generator_py
+[4.859s] [ 89%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.859s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.859s] [ 93%] [32mBuilding C object CMakeFiles/apriltag_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.956s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.956s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.956s] [100%] [32m[1mLinking C shared library rosidl_generator_py/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.983s] [100%] Built target apriltag_msgs__rosidl_typesupport_introspection_c__pyext
+[4.983s] [100%] Built target apriltag_msgs__rosidl_typesupport_c__pyext
+[4.983s] [100%] Built target apriltag_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.989s] Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs -- -j8 -l8
+[5.083s] Invoking command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs
+[5.087s] -- Install configuration: ""
+[5.087s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/ament_index/resource_index/rosidl_interfaces/apriltag_msgs
+[5.088s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.088s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.088s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.h
+[5.088s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.088s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.h
+[5.088s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.h
+[5.089s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.h
+[5.089s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.h
+[5.089s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.h
+[5.089s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.c
+[5.089s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.h
+[5.089s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__functions.h
+[5.089s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.c
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.h
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__functions.h
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__functions.c
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.h
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.h
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.sh
+[5.090s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/library_path.dsv
+[5.091s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so
+[5.091s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_c.so" to ""
+[5.091s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.091s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.091s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.092s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.092s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_c.h
+[5.092s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_c.h
+[5.092s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_c.h
+[5.092s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so
+[5.092s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.092s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.093s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.093s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_c.h
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.c
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_c.h
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.c
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.c
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_c.h
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.093s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so
+[5.094s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.094s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so
+[5.094s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_c.so" to ""
+[5.094s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.094s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.094s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection.hpp
+[5.094s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.094s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__traits.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__struct.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__builder.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__struct.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__struct.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__builder.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__traits.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__builder.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__traits.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/point.hpp
+[5.095s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/april_tag_detection_array.hpp
+[5.096s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.096s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.096s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.096s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.096s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.096s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_fastrtps_cpp.hpp
+[5.096s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/dds_fastrtps
+[5.096s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_fastrtps_cpp.hpp
+[5.096s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.097s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.097s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs
+[5.097s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg
+[5.097s] -- Up-to-date: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail
+[5.097s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__type_support.cpp
+[5.097s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__rosidl_typesupport_introspection_cpp.hpp
+[5.097s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__type_support.cpp
+[5.097s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection__rosidl_typesupport_introspection_cpp.hpp
+[5.098s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/april_tag_detection_array__rosidl_typesupport_introspection_cpp.hpp
+[5.098s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/include/apriltag_msgs/apriltag_msgs/msg/detail/point__type_support.cpp
+[5.098s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so
+[5.098s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.098s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so
+[5.098s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_typesupport_cpp.so" to ""
+[5.098s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.sh
+[5.098s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/pythonpath.dsv
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/dependency_links.txt
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/top_level.txt
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/PKG-INFO
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs-2.0.1-py3.10.egg-info/SOURCES.txt
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_c.c
+[5.099s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/libapriltag_msgs__rosidl_generator_py.so
+[5.100s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.100s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py
+[5.100s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/_apriltag_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.100s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg
+[5.100s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point_s.c
+[5.100s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py
+[5.101s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array_s.c
+[5.101s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_s.c
+[5.101s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py
+[5.101s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py
+[5.101s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py
+[5.101s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.101s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.129s] Listing '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs'...
+[5.129s] Compiling '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/__init__.py'...
+[5.129s] Listing '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg'...
+[5.129s] Compiling '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/__init__.py'...
+[5.129s] Compiling '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection.py'...
+[5.129s] Compiling '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_april_tag_detection_array.py'...
+[5.129s] Compiling '/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/msg/_point.py'...
+[5.133s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.133s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.133s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.134s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.134s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.134s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/local/lib/python3.10/dist-packages/apriltag_msgs/apriltag_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[5.134s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so
+[5.134s] -- Set runtime path of "/home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/lib/libapriltag_msgs__rosidl_generator_py.so" to ""
+[5.134s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.idl
+[5.135s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.idl
+[5.135s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.idl
+[5.135s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/msg/Point.msg
+[5.135s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetection.msg
+[5.135s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/msg/AprilTagDetectionArray.msg
+[5.135s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/ament_index/resource_index/package_run_dependencies/apriltag_msgs
+[5.135s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/ament_index/resource_index/parent_prefix_path/apriltag_msgs
+[5.136s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.sh
+[5.136s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/ament_prefix_path.dsv
+[5.136s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.sh
+[5.136s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/environment/path.dsv
+[5.136s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.bash
+[5.136s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.sh
+[5.136s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.zsh
+[5.137s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/local_setup.dsv
+[5.137s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.dsv
+[5.137s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/ament_index/resource_index/packages/apriltag_msgs
+[5.137s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport.cmake
+[5.137s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cExport-noconfig.cmake
+[5.137s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.138s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.138s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport.cmake
+[5.138s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.138s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport.cmake
+[5.138s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[5.138s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_cppExport.cmake
+[5.138s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.139s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.139s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[5.139s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.139s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport.cmake
+[5.139s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.139s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport.cmake
+[5.140s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/export_apriltag_msgs__rosidl_generator_pyExport-noconfig.cmake
+[5.140s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake-extras.cmake
+[5.140s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.140s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.140s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.140s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[5.141s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.141s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.141s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig.cmake
+[5.141s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/cmake/apriltag_msgsConfig-version.cmake
+[5.141s] -- Installing: /home/scg1224/Final_Project/raspberry_pi_ws/install/apriltag_msgs/share/apriltag_msgs/package.xml
+[5.145s] Invoked command in '/home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/scg1224/Final_Project/raspberry_pi_ws/build/apriltag_msgs
