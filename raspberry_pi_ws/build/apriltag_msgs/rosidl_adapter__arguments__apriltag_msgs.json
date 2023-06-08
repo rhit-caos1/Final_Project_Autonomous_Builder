@@ -1,8 +1,0 @@
-{
-  "package_name": "apriltag_msgs",
-  "non_idl_tuples": [
-    "/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs:msg/Point.msg",
-    "/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs:msg/AprilTagDetection.msg",
-    "/home/scg1224/Final_Project/raspberry_pi_ws/src/apriltag_msgs:msg/AprilTagDetectionArray.msg"
-  ]
-}
